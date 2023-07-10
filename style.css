@@ -14,6 +14,12 @@ body{
     border: none;
     border-radius: 8px;
 }
+.info-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    margin-top:15px;
+    margin-bottom: 25px;
+}
 
 /* header css start */
 header{
@@ -29,7 +35,6 @@ header{
 }
 .header-info{
     width: 55%;
-    /* align-items: center; */
 }
 .header-img{
     width: 45%;
@@ -37,9 +42,66 @@ header{
 .info-head{
     font-size: 60px;
 }
-.info-des{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+/* main part start */
+/* flowers section */
+.flowers{
+    width: 80%;
+    margin: auto;
+}
+.flower-head{
+    font-size: 30px;
+}
+.flowers-heading-part{
+    text-align: center;
+}
+.flower-1{
+    width: 400px;
+    height: 500px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin: 50px 15px 0px 15px;
+}
+.flower-2{
+    width: 400px;
+    height: 500px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin: 50px 15px 0px 15px;
+}
+.flower-3{
+    width: 400px;
+    height: 500px;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin: 50px 15px 0px 15px;
+}
+.flowers-img{
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footers{
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.footer-div{
+    margin: auto;
 }
