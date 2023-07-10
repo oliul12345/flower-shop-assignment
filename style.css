@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+/* general css */
+*{
+    margin: 0; padding: 0;
+}
+
+
+/* header css start */
+header{
+    width: 100vh;
+    width: 100%;
+}
+.header-container{
+    background-color: #E554731A;
+    display: flex;
+    padding: 50px 240px 0 240px;
+    gap: 100px;
+}
+.header-info{
+    width: 50%;
+    align-items: center;
+   
+}
+.info-head{
+    font-size: 50px;
+}
