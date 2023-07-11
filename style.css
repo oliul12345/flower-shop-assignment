@@ -150,7 +150,8 @@ img{
 }
 .flowers-img{
     display: flex;
-    gap: 25px;
+    justify-content: space-around;
+    /* gap: 25px; */
     text-align: center;
     margin: auto;
 }
