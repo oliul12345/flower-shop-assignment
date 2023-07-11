@@ -42,11 +42,72 @@ header{
 .info-head{
     font-size: 60px;
 }
+/* instagram part */
+.head{
+    font-size: 40px;
+}
+.instagram-main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.info-deals{
+    margin: 15px 0px;
+}
+.instagram{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.instagram-img-div{
+    display: flex;
+    gap: 10px;
+    width: 80%;
+}
+.img{
+    width: 100%;
+    position: static;
+    border-radius: 5px;
+}
 /* main part start */
+/* contact session */
+.contact{
+    width: 80%;
+    height: 300px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+}
+/* hot deal section  */
+.main-hot-deal{
+    width: 100%;
+    background-color:bisque;
+}
+.hot-deal-info-img{
+    width: 50%;
+}
+.hot-deal{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin: 100px 400px;
+}
+.hot-deal-info{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
 /* flowers section */
 .flowers{
     width: 80%;
     margin: auto;
+    margin-top: 100px;
 }
 .flower-head{
     font-size: 30px;
@@ -82,6 +143,31 @@ header{
     justify-content: center;
     margin: auto;
 }
+/* Deals section start */
+.deals-section{
+    width: 80%;
+    text-align: center;
+    height: 440px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px; margin-bottom: 100px;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+.main-deals{
+    margin: auto;
+}
+.deals-info{
+    text-align: centers;
+}
+.email{
+    width: 640px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 10px;
+}
 
 
 
@@ -91,12 +177,11 @@ header{
 
 
 
-
-
+/* footer part start */
 .footers{
     height: 400px;
     width: 100%;
-    background-color: aquamarine;
+    background-color: black;
     text-align: center;
     display: flex;
     margin: auto;
@@ -104,4 +189,18 @@ header{
 }
 .footer-div{
     margin: auto;
+}
+.flower{
+    color: #E55473;
+    font-size: 48px;
+}
+#flo{
+    font-size: 48px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
+.footer-des{
+    margin: 20px 0px;
+    color: white;
 }
