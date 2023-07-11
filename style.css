@@ -174,10 +174,11 @@ img{
     border-radius: 8px;
     box-shadow: 10px 8px 15px 10px wheat;
     background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    background-image: url(bg-pic.png);
 }
 .main-deals{
     margin: auto;
-}
+} 
 .deals-info{
     text-align: center;
 }
@@ -187,7 +188,7 @@ img{
     border-radius: 8px;
     padding: 10px;
     border: none;
-} 
+}
 /* footer part start */
 .footers{
     height: 400px;
