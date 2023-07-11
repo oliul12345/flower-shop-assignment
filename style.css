@@ -121,6 +121,12 @@ header{
     background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
     margin: 50px 15px 0px 15px;
+    align-items: center;
+}
+.flower-1>img{
+    height: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .flower-2{
     width: 400px;
@@ -136,47 +142,49 @@ header{
     border-radius: 300px 300px 0px 0px;
     margin: 50px 15px 0px 15px;
 }
+img{
+    margin-bottom: 10px;
+}
 .flowers-img{
     display: flex;
     gap: 25px;
     text-align: center;
-    justify-content: center;
     margin: auto;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.link-name{
+    font-size: 20px;
 }
 /* Deals section start */
 .deals-section{
     width: 80%;
     text-align: center;
     height: 440px;
-    border: 2px solid red;
     display: flex;
     align-items: center;
     margin: auto;
     margin-top: 100px; margin-bottom: 100px;
     border-radius: 8px;
+    box-shadow: 10px 8px 15px 10px wheat;
     background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
 }
 .main-deals{
     margin: auto;
 }
 .deals-info{
-    text-align: centers;
+    text-align: center;
 }
 .email{
     width: 640px;
     height: 44px;
     border-radius: 8px;
     padding: 10px;
-}
-
-
-
-
-
-
-
-
-
+    border: none;
+} 
 /* footer part start */
 .footers{
     height: 400px;
